@@ -5,6 +5,7 @@ import {
   AiOutlineClose,
   AiFieldTag,
 } from 'react-icons/ai'
+import { BsFillCartFill, BsPerson } from 'react-icons/bs'
 
 const TopNav = () => {
   return (
@@ -33,7 +34,7 @@ const TopNav = () => {
         />
       </div>
       <button className="bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full">
-        Cart
+        <BsFillCartFill size={20} /> Cart
       </button>
     </div>
   )
