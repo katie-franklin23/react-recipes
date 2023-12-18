@@ -32,6 +32,9 @@ const TopNav = () => {
           placeholder="search meals"
         />
       </div>
+      <button className="bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full">
+        Cart
+      </button>
     </div>
   )
 }
