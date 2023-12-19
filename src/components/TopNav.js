@@ -50,7 +50,11 @@ const TopNav = () => {
             : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'
         }
       >
-        <AiOutlineClose onClick={() => setSideNav(!sideNav)} size={25} />
+        <AiOutlineClose
+          onClick={() => setSideNav(!sideNav)}
+          size={25}
+          className="absolute right-4 top-4 cursor-pointer"
+        />
       </div>
     </div>
   )
