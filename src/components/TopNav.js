@@ -37,7 +37,10 @@ const TopNav = () => {
         <BsFillCartFill size={20} /> Cart
       </button>
       {sideNav ? (
-        <div className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0"></div>
+        <div
+          className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0"
+          onClick={() => setSideNav(!sideNav)}
+        ></div>
       ) : (
         ''
       )}
