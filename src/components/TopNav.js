@@ -58,6 +58,11 @@ const TopNav = () => {
         <h2 className="text-2xl p-4">
           Yum <span className="text-orange-700 font-bold">Eats</span>
         </h2>
+        <nav>
+          <ul className="flex flex-col p-4 text-gray-900">
+            <li className="text-xl py-4 flex"></li>
+          </ul>
+        </nav>
       </div>
     </div>
   )
