@@ -67,6 +67,34 @@ const TopNav = () => {
               />
               My Account
             </li>
+            <li className="text-xl py-4 flex">
+              <BsPerson
+                size={25}
+                className="mr-4 text-white bg-black rounded-full"
+              />
+              My Account
+            </li>
+            <li className="text-xl py-4 flex">
+              <BsPerson
+                size={25}
+                className="mr-4 text-white bg-black rounded-full"
+              />
+              My Account
+            </li>
+            <li className="text-xl py-4 flex">
+              <BsPerson
+                size={25}
+                className="mr-4 text-white bg-black rounded-full"
+              />
+              My Account
+            </li>
+            <li className="text-xl py-4 flex">
+              <BsPerson
+                size={25}
+                className="mr-4 text-white bg-black rounded-full"
+              />
+              My Account
+            </li>
           </ul>
         </nav>
       </div>
