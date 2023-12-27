@@ -92,11 +92,11 @@ const TopNav = () => {
               My Wallet
             </li>
             <li className="text-xl py-4 flex">
-              <BsPerson
+              <MdHelp
                 size={25}
                 className="mr-4 text-white bg-black rounded-full"
               />
-              My Account
+              Help
             </li>
           </ul>
         </nav>
