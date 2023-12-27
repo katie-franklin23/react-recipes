@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from 'react-icons/ai'
 import { BsFillCartFill, BsPerson } from 'react-icons/bs'
 import { TbTruckReturn } from 'react-icons/tb'
 import { FaGoogleWallet } from 'react-icons/fa'
-import { MdHelp, MdOutlineFavourite } from 'react-icons/md'
+import { MdHelp, MdOutlineFavorite } from 'react-icons/md'
 
 const TopNav = () => {
   const [sideNav, setSideNav] = useState(false)
@@ -73,7 +73,7 @@ const TopNav = () => {
               Delivery
             </li>
             <li className="text-xl py-4 flex">
-              <MdOutlineFavourite
+              <MdOutlineFavorite
                 size={25}
                 className="mr-4 text-white bg-black rounded-full"
               />
