@@ -12,7 +12,7 @@ const Featured = () => {
       url: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672672612/NetflixApp/ric_a4ewxo.jpg',
     },
   ]
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(1)
   return (
     <div className="max-w-[1520px] h-[500px] w-full py-4 px-4 relative">
       <div
