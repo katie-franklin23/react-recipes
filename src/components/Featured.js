@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Featured = () => {
   const sliders = [
@@ -12,7 +12,7 @@ const Featured = () => {
       url: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672672612/NetflixApp/ric_a4ewxo.jpg',
     },
   ]
-
+  const [currentIndex, setCurrentIndex] = useState(0)
   return <div>Featured</div>
 }
 
