@@ -13,7 +13,9 @@ const Delivery = () => {
         />
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold">Get The App</p>
-          <h1>Limitless Convenience on-demand</h1>
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+            Limitless Convenience on-demand
+          </h1>
         </div>
       </div>
     </div>
