@@ -22,7 +22,7 @@ const Featured = () => {
   }
 
   const nextSlider = () => {
-    const isFirstSlide = currentIndex === sliders.length - 1
+    const isLastSlide = currentIndex === sliders.length - 1
     const newIndex = isLastSlide ? 0 : currentIndex + 1
     setCurrentIndex(newIndex)
   }
