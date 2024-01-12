@@ -15,9 +15,15 @@ const Featured = () => {
   ]
   const [currentIndex, setCurrentIndex] = useState(0)
 
-  const prevSiider = () => {
+  const prevSlider = () => {
     const isFirstSlide = currentIndex === 0
     const newIndex = isFirstSlide ? sliders.length - 1 : currentIndex - 1
+    setCurrentIndex(newIndex)
+  }
+
+  const nextSlider = () => {
+    const isFirstSlide = currentIndex === sliders.length - 1
+    const newIndex = isLastSlide ? 0 : currentIndex + 1
     setCurrentIndex(newIndex)
   }
   return (
@@ -27,10 +33,10 @@ const Featured = () => {
         style={{ backgroundImage: `url(${sliders[currentIndex].url})` }}
       ></div>
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
-        <BsChevronCompactLeft onClick={prevSiider} />
+        <BsChevronCompactLeft onClick={prevSlider} />
       </div>
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
-        <BsChevronCompactRight />
+        <BsChevronCompactRight onClick={nextSlider} />
       </div>
     </div>
   )
