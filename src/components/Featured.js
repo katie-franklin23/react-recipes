@@ -47,7 +47,7 @@ const Featured = () => {
         {sliders.map((sliderItems, slideIndex) => (
           <div
             key={slideIndex}
-            onClick={() => moveToNextSlide}
+            onClick={() => moveToNextSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
             <RxDotFilled />
