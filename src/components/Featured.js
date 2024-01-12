@@ -20,7 +20,7 @@ const Featured = () => {
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${sliders[currentIndex].url})` }}
       ></div>
-      <div className="hidden absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
         <BsChevronCompactLeft />
       </div>
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
