@@ -39,7 +39,7 @@ const Delivery = () => {
             fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed
             consequat, leo eget bibendum sodales, augue velit cursus nunc,
           </p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my6 mx-auto md:mx-o py-3">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-o py-3">
             Get Started
           </button>
         </div>
