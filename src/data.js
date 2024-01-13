@@ -3,11 +3,11 @@ export const topPicks = [
     id: 1,
     title: 'shawarma',
     price: '$850',
-    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323737/NetflixApp/chiken_shawarma_c0ysna.jpg'
+    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323737/NetflixApp/chiken_shawarma_c0ysna.jpg',
   },
   {
     id: 2,
-    title: 'fruite juice',
+    title: 'fruit juice',
     price: '$900',
     img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329939/NetflixApp/fruite_juice_du7uqy.jpg',
   },
@@ -15,13 +15,13 @@ export const topPicks = [
     id: 3,
     title: 'yogurt parfaite',
     price: '$450',
-    img: "https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329944/NetflixApp/yogurt_parfait_kt8b5f.jpg"
+    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329944/NetflixApp/yogurt_parfait_kt8b5f.jpg',
   },
   {
     id: 4,
     title: 'orange juice',
     price: '$420',
-    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329938/NetflixApp/orangejuice_s4mdbi.webp'
+    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329938/NetflixApp/orangejuice_s4mdbi.webp',
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ export const topPicks = [
     id: 6,
     title: 'tilapia fish',
     price: '$900',
-    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672331305/NetflixApp/tilapia_fish_g0ozkn.jpg'
+    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672331305/NetflixApp/tilapia_fish_g0ozkn.jpg',
   },
   {
     id: 7,
@@ -65,8 +65,7 @@ export const topPicks = [
     price: '$900',
     img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/chinese_pizza_kgnbo1.jpg',
   },
-];
-
+]
 
 export const mealData = [
   {
@@ -165,83 +164,80 @@ export const mealData = [
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322923/NetflixApp/chicken_tenders_quel6y.jpg',
     price: '$100',
   },
+]
 
-];
+export const categories = [
+  {
+    id: 1,
+    name: 'Burger',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/burger_logo_hmpqua.png',
+  },
+  {
+    id: 2,
+    name: 'veg',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/veg_logo_jvm4qn.png',
+  },
+  {
+    id: 3,
+    name: 'Pizza',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/pizza_logo_dqdqds.png',
+  },
+  {
+    id: 4,
+    name: 'Wings',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070208/NetflixApp/wings_logo_hrn8zl.png',
+  },
 
-
-
-  export const categories = [
-    {
-      id: 1,
-      name: 'Burger',
-      image:
-         'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/burger_logo_hmpqua.png'
-    },
-    {
-      id: 2,
-      name: 'veg',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/veg_logo_jvm4qn.png'
-    },
-    {
-      id: 3,
-      name: 'Pizza',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/pizza_logo_dqdqds.png',
-    },
-    {
-      id: 4,
-      name: 'Wings',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070208/NetflixApp/wings_logo_hrn8zl.png'
-    },
-
-    {
-      id: 5,
-      name: 'Best Overall',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/fastfood_logo_v80nbk.png'
-    },
-    {
-      id: 6,
-      name: 'sharwama',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/sharwama_logo_st4vg8.png'
-    },
-    {
-      id: 7,
-      name: 'resottoa',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/resotto_logo_uywrr1.png'
-    },
-    {
-      id: 8,
-      name: 'cake',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/cake_edpoec.png'
-    },
-    {
-      id: 9,
-      name: 'chiken',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/chiken_logo_ahl2ca.png'
-    },
-    {
-      id: 10,
-      name: 'ice cream',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/ice_cream_logo_hcqcaa.png'
-    },
-    {
-      id: 11,
-      name: 'beef',
-      image:
-       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/beef_logo_adnidz.png'
-    },
-    {
-      id: 12,
-      name: 'apple pie',
-      image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/appple_pie_yxfxpm.png'
-    },
-  ];
+  {
+    id: 5,
+    name: 'Best Overall',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/fastfood_logo_v80nbk.png',
+  },
+  {
+    id: 6,
+    name: 'sharwama',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/sharwama_logo_st4vg8.png',
+  },
+  {
+    id: 7,
+    name: 'resottoa',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/resotto_logo_uywrr1.png',
+  },
+  {
+    id: 8,
+    name: 'cake',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/cake_edpoec.png',
+  },
+  {
+    id: 9,
+    name: 'chiken',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/chiken_logo_ahl2ca.png',
+  },
+  {
+    id: 10,
+    name: 'ice cream',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/ice_cream_logo_hcqcaa.png',
+  },
+  {
+    id: 11,
+    name: 'beef',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/beef_logo_adnidz.png',
+  },
+  {
+    id: 12,
+    name: 'apple pie',
+    image:
+      'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/appple_pie_yxfxpm.png',
+  },
+]
