@@ -16,6 +16,10 @@ const Delivery = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Limitless Convenience on-demand
           </h1>
+          <p>Test test</p>
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my6 mx-auto md:mx-o py-3">
+            Get Started
+          </button>
         </div>
       </div>
     </div>
