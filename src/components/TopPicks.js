@@ -1,5 +1,7 @@
 import React from 'react'
 import { topPicks } from '../data'
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/react-splide/css'
 
 const TopPicks = () => {
   return (
@@ -8,22 +10,26 @@ const TopPicks = () => {
         Top Picks
       </h1>
       <div className="hidden lg:flex max-w-[1520px] m-auto py-2 px-2">
-        {topPicks.map((item) => {
-          return (
-            <div key={item.id} className="rounded-3xl relative">
-              <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white"></div>
-              <p className="px-2">{item.title}</p>
-              <button className="border-dotted border-white text-white mx-2 absolute bottom-4">
-                Add to Cart
-              </button>
-              <img
-                className="h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300"
-                src={item.img}
-                alt={item.title}
-              />
-            </div>
-          )
-        })}
+        <Splide options={{ perPage: 4 }}>
+          {topPicks.map((item) => {
+            return (
+              <SplideSlide>
+                <div key={item.id} className="rounded-3xl relative">
+                  <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white"></div>
+                  <p className="px-2">{item.title}</p>
+                  <button className="border-dotted border-white text-white mx-2 absolute bottom-4">
+                    Add to Cart
+                  </button>
+                  <img
+                    className="h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300"
+                    src={item.img}
+                    alt={item.title}
+                  />
+                </div>
+              </SplideSlide>
+            )
+          })}
+        </Splide>
       </div>
     </>
   )
