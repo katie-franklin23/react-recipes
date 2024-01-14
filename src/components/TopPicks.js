@@ -18,7 +18,7 @@ const TopPicks = () => {
               <SplideSlide key={item.id}>
                 <div key={item.id} className="rounded-3xl relative">
                   <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white"></div>
-                  <p className="px-2 font-bold">{item.title}</p>
+                  <p className="px-2 pt-4 font-bold text-2xl">{item.title}</p>
                   <p className="px-2">{item.price}</p>
                   <button className="border-dotted border-white text-white mx-2 absolute bottom-4">
                     Add to Cart
