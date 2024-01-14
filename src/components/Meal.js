@@ -9,7 +9,9 @@ const Meal = () => {
       </h1>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4">
         {mealData.map((item) => (
-          <div className="border-none hover:scale-105 duration-300"></div>
+          <div className="border-none hover:scale-105 duration-300">
+            <img src={item.image} />
+          </div>
         ))}
       </div>
     </div>
