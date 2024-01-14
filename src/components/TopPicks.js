@@ -10,7 +10,9 @@ const TopPicks = () => {
         Top Picks
       </h1>
       <div className="hidden lg:flex max-w-[1520px] m-auto py-2 px-2">
-        <Splide options={{ perPage: 4, gap: '0.5rem' }}>
+        <Splide
+          options={{ perPage: 4, gap: '0.5rem', drag: 'free', arrows: false }}
+        >
           {topPicks.map((item) => {
             return (
               <SplideSlide>
