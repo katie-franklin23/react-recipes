@@ -15,7 +15,7 @@ const TopPicks = () => {
         >
           {topPicks.map((item) => {
             return (
-              <SplideSlide>
+              <SplideSlide key={item.id}>
                 <div key={item.id} className="rounded-3xl relative">
                   <div className="absolute w-full h-full bg-black/50 rounded-3xl text-white"></div>
                   <p className="px-2">{item.title}</p>
