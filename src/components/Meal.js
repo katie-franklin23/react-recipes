@@ -12,6 +12,7 @@ const Meal = () => {
           <div className="border-none hover:scale-105 duration-300">
             <img
               src={item.image}
+              alt={item.name}
               className="w-full h-[200px] object-cover rounded-lg"
             />
           </div>
