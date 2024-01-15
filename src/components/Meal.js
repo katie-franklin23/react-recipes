@@ -23,7 +23,7 @@ const Meal = () => {
               </p>
             </div>
             <div className="pl-2 py-4">
-              <p>
+              <p className="flex items-center text-indigo-600">
                 View More
                 <ArrowSmRightIcon className="w-5 ml-2" />
               </p>
