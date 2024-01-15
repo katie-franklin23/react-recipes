@@ -38,7 +38,7 @@ const Meal = () => {
             Chicken
           </button>
           <button
-            onClick={() => filterCat('')}
+            onClick={() => filterCat('salad')}
             className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
           >
             Salad
