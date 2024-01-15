@@ -22,7 +22,7 @@ const Meal = () => {
                 {item.price}
               </p>
             </div>
-            <div className="pl-2 py-4">
+            <div className="pl-2 py-4 -mt-7">
               <p className="flex items-center text-indigo-600">
                 View More
                 <ArrowSmRightIcon className="w-5 ml-2" />
