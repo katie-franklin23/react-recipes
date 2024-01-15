@@ -8,7 +8,7 @@ const Meal = () => {
       <h1 className="text-orange-500 font-bold text-2xl text-center py-2">
         Our Meal
       </h1>
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-4">
         {mealData.map((item) => (
           <div
             key={item.id}
