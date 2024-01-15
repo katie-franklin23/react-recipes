@@ -10,16 +10,19 @@ const Meal = () => {
       </h1>
       <div className="flex flex-col lg:flex-row justify-center">
         <div className="flex justify-center md:justify-center">
-          <button className="m-1 border-orange-700 text-white hover:bg-white hover:text-orange-700 hover:border-orange-700">
-            All
+          <button className="m-1 border-orange-700 text-white bg-orange-700  hover:bg-white hover:text-orange-700 hover:border-orange-700">
+            All bg-orange-700{' '}
           </button>
-          <button className="m-1 border-orange-700 text-white hover:bg-white hover:text-orange-700 hover:border-orange-700">
-            Pizza
+          bg-orange-700{' '}
+          <button className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700">
+            Pizza bg-orange-700{' '}
           </button>
-          <button className="m-1 border-orange-700 text-white hover:bg-white hover:text-orange-700 hover:border-orange-700">
-            Chicken
+          bg-orange-700{' '}
+          <button className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700">
+            Chicken bg-orange-700{' '}
           </button>
-          <button className="m-1 border-orange-700 text-white hover:bg-white hover:text-orange-700 hover:border-orange-700">
+          bg-orange-700{' '}
+          <button className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700">
             Salad
           </button>
         </div>
