@@ -1,4 +1,5 @@
 import React from 'react'
+import { ArrowSmRightIcon } from '@heroicons/react/outline'
 import { mealData } from '../data'
 
 const Meal = () => {
@@ -22,7 +23,10 @@ const Meal = () => {
               </p>
             </div>
             <div className="pl-2 py-4">
-              <p>View More</p>
+              <p>
+                View More
+                <ArrowSmRightIcon className="w-5 ml-2" />
+              </p>
             </div>
           </div>
         ))}
