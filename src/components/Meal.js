@@ -31,10 +31,16 @@ const Meal = () => {
           >
             Pizza
           </button>
-          <button className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700">
+          <button
+            onClick={() => filterCat('chicken')}
+            className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
+          >
             Chicken
           </button>
-          <button className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700">
+          <button
+            onClick={() => filterCat('')}
+            className="m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700"
+          >
             Salad
           </button>
         </div>
