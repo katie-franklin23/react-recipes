@@ -10,7 +10,10 @@ const Meal = () => {
       <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6">
         {mealData.map((item) => (
           <div className="border-none hover:scale-105 duration-300">
-            <img src={item.image} className="w-full h-full object-cover" />
+            <img
+              src={item.image}
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
         ))}
       </div>
