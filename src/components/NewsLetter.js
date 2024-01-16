@@ -6,6 +6,7 @@ const NewsLetter = () => {
       <div className="mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my -4"></div>
         <h1>Need advice on how to improve your flow?</h1>
+        <p>Sign Up to join our newsletter and stay up to date</p>
       </div>
     </div>
   )
