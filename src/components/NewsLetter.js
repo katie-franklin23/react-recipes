@@ -15,6 +15,9 @@ const NewsLetter = () => {
               placeholder="email"
               typeclassName="p-3 flex w-full rounded-md text-black "
             />
+            <button className="bg-[#00df9a] text-white rounded-md font-medium w-[200p] ml-4 my-6 px-6 border-none">
+              Notify me
+            </button>
           </div>
         </div>
       </div>
