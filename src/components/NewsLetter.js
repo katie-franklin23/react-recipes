@@ -24,6 +24,7 @@ const NewsLetter = () => {
             <span className="text-[#00df9a]">Privacy Policy</span>
           </p>
         </div>
+        <hr className="my-8 bg-gray-700 border-1"></hr>
       </div>
     </div>
   )
