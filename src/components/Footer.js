@@ -19,7 +19,7 @@ const Footer = () => {
             accusantium.
             <div className="flex justify-between md:w-[75%] my-6">
               <FaFacebookSquare size={30} />
-              <FaFacebookSquare size={30} />
+              <FaInstagram size={30} />
               <FaFacebookSquare size={30} />
               <FaFacebookSquare size={30} />
               <FaFacebookSquare size={30} />
