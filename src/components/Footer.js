@@ -17,7 +17,13 @@ const Footer = () => {
             Lorem, ipsum dolar sit amet conectetur apidipsicing elit. Id odit
             ullam iste repellat consequatur libero reiciendis, blanditiis
             accusantium.
-            <div className="flex justify-between md:w-[75%] my-6"></div>
+            <div className="flex justify-between md:w-[75%] my-6">
+              <FaFacebookSquare size={30} />
+              <FaFacebookSquare size={30} />
+              <FaFacebookSquare size={30} />
+              <FaFacebookSquare size={30} />
+              <FaFacebookSquare size={30} />
+            </div>
           </p>
         </div>
       </div>
