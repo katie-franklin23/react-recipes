@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex justify-between md:w-[75%] my-6">
               <FaFacebookSquare size={30} />
               <FaInstagram size={30} />
-              <FaFacebookSquare size={30} />
+              <FaTwitterSquare size={30} />
               <FaFacebookSquare size={30} />
               <FaFacebookSquare size={30} />
             </div>
