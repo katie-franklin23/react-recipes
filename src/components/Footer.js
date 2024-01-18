@@ -31,7 +31,7 @@ const Footer = () => {
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
             <ul>
               <li className="py-2 text-sm">New York</li>
-              <li className="py-2 text-sm"></li>
+              <li className="py-2 text-sm">USA</li>
               <li className="py-2 text-sm"></li>
               <li className="py-2 text-sm"></li>
             </ul>
