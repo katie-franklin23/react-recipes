@@ -13,6 +13,11 @@ const Footer = () => {
       <div className="py-16 px-4 grid lg:grid-cols3 gap-8 text-gray-300>">
         <div>
           <h1 className="w-full text-3xl font-bold text-orange-500">YumEats</h1>
+          <p>
+            Lorem, ipsum dolar sit amet conectetur apidipsicing elit. Id odit
+            ullam iste repellat consequatur libero reiciendis, blanditiis
+            accusantium.
+          </p>
         </div>
       </div>
     </div>
