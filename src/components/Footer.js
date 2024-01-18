@@ -33,7 +33,7 @@ const Footer = () => {
               <li className="py-2 text-sm">New York</li>
               <li className="py-2 text-sm">USA</li>
               <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm"></li>
+              <li className="py-2 text-sm">Canada</li>
             </ul>
           </div>
         </div>
