@@ -4,5 +4,6 @@ This project was practice on how to develop a recipe app from start to finish.
 
 ## Built Using:
 
-*Tailwind CSS
+* Tailwind CSS
+* React
 
